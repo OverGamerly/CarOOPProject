@@ -1,6 +1,5 @@
 #pragma once
-#include <iostream>
-#include <string>
+#include "MainHead.h"
 
 using namespace std;
 
