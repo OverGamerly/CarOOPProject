@@ -145,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CarPark.cpp" />
+    <ClCompile Include="CarParkingCr.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Car.cpp" />
   </ItemGroup>
