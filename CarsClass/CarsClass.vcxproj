@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
+    <ClInclude Include="CarPark.h" />
     <ClInclude Include="MainHead.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CarPark.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Car.cpp" />
   </ItemGroup>
