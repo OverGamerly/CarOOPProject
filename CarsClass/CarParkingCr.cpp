@@ -93,3 +93,25 @@ void CarPark::add(Car car)
 		count++;
 	}
 }
+
+void CarPark::deleteCar(int index)
+{
+	if (list != NULL && index >= 0 && index < count)
+	{
+		Car* temp = new Car[count - 1];
+
+		for (int i = 0, j = 0; i < count; i++)
+		{
+			if (i != count)
+			{
+				temp[j] = list[i];
+				j++;
+			}
+		}
+
+		delete[] list;
+		list = temp;
+		count--;
+	}
+}
+

@@ -1,5 +1,7 @@
 #include "Car.h"
 
+int Car::count = 0;
+
 Car::Car()
 {
 	brand = "no brand";
@@ -10,6 +12,7 @@ Car::Car()
 
 Car::Car(string brand, string model, int cost, int age)
 {
+	count++;
 	this->brand = brand;
 	this->cost = cost;
 	this->age = age;
@@ -41,7 +44,7 @@ void Car::setCost(int cost)
 
 void Car::setAge(int age)
 {
-	if (age >= 1886)
+	if (age >= MIN_YEAR)
 	{
 		this->age = age;
 	}
@@ -49,8 +52,19 @@ void Car::setAge(int age)
 
 string Car::getInfo()
 {
-	return "Car brand: " + brand + "\nModel: " + model
-		+ "\nAge: " + to_string(age) + "\nCost: " + to_string(cost) + "$";
+	return "-------CAR INFO------\nCar brand: " + brand + "\nModel: " + model
+		+ "\nAge: " + to_string(age) + "\nCost: " + to_string(cost) + "$\n--------------------";
+}
+
+void Car::setNewCar()
+{
+	string brand;
+	string model;
+	int age;
+	int cost;
+
+	Car::setBrand(brand);
+	Car::setModel(model);
 }
 
 

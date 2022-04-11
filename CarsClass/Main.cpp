@@ -10,10 +10,14 @@ int main()
 	Car car3("Jeep", "Grand Cherokee", 5400, 28);
 	Car car4("Honda", "Civik", 17500, 5);
 
-	cout << car4.getInfo() << endl;
-
+	carpark.add(car4);
+	carpark.add(car3);
+	carpark.add(car1);
 	carpark.add(car2);
+
 	cout << carpark.getInfo() << endl;
+
+	cout << Car::getCount() << endl;
 
 	return 0;
 }

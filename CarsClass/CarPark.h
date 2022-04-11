@@ -22,5 +22,6 @@ public:
 
 	string getInfo();
 	void add(Car car);
+	void deleteCar(int index);
 };
 

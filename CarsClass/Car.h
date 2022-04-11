@@ -10,7 +10,15 @@ private:
 	string model;
 	int cost;
 	int age;
+	static int count;
 public:
+	static const int MIN_YEAR = 1886;
+
+	static int getCount()
+	{
+		return count;
+	}
+
 	Car();
 	Car(string brand, string model, int cost, int age);
 	~Car();
@@ -19,5 +27,6 @@ public:
 	void setCost(int cost);
 	void setAge(int age);
 	string getInfo();
+	void setNewCar();
 
 };
