@@ -4,6 +4,8 @@
 
 class CarPark
 {
+	friend class Manager;
+	
 private:
 	string name;
 	int count;
@@ -16,11 +18,11 @@ public:
 
 	string getName();
 	void setName(string name);
-	
-	int getCount();
+
 	Car get(int index);
 
 	string getInfo();
+	int getCount();
 	void add(Car car);
 	void deleteCar(int index);
 };

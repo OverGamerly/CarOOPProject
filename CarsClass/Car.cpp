@@ -67,5 +67,9 @@ void Car::setNewCar()
 	Car::setModel(model);
 }
 
+int Car::getAge()
+{
+	return age;
+}
 
 

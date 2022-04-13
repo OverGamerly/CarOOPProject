@@ -44,6 +44,7 @@ int CarPark::getCount()
 	return count;
 }
 
+
 Car CarPark::get(int index)
 {
 	if (index < 0 || index >= count || list != NULL)
@@ -114,4 +115,5 @@ void CarPark::deleteCar(int index)
 		count--;
 	}
 }
+
 

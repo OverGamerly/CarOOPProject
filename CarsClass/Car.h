@@ -12,7 +12,7 @@ private:
 	int age;
 	static int count;
 public:
-	static const int MIN_YEAR = 1886;
+	static const int MIN_YEAR = 0;
 
 	static int getCount()
 	{
@@ -26,6 +26,10 @@ public:
 	void setModel(string model);
 	void setCost(int cost);
 	void setAge(int age);
+	int getAge();
+	int getCost();
+	string getBrand();
+	string getModel();
 	string getInfo();
 	void setNewCar();
 
