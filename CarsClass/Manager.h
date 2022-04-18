@@ -1,10 +1,11 @@
 #pragma once
 #include "CarPark.h"
+
 class Manager
 {
 
 public:
-	void sortByNameAcs(CarPark carpark);
+	/*void sortByNameAcs(CarPark carpark);
 	void sortByNameDesc(CarPark carpark);
 	void sortByCostAcs(CarPark carpark);
 	void sortByCostDesc(CarPark carpark);
@@ -14,6 +15,6 @@ public:
 	double calculateAvgCost(CarPark carpark);
 	double calculateAvgAge(CarPark carpark);
 
-	bool checkCar(CarPark carpark, Car car);
+	bool checkCar(CarPark carpark, Car car);*/
 };
 

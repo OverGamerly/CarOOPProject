@@ -1,8 +1,6 @@
 #pragma once
 #include "MainHead.h"
 
-using namespace std;
-
 class Car
 {
 private:

@@ -58,13 +58,13 @@ string Car::getInfo()
 
 void Car::setNewCar()
 {
-	string brand;
+	/*string brand;
 	string model;
 	int age;
 	int cost;
 
 	Car::setBrand(brand);
-	Car::setModel(model);
+	Car::setModel(model);*/
 }
 
 int Car::getAge()

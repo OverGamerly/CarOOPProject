@@ -1,15 +1,15 @@
 #pragma once
-#include "MainHead.h"
 #include "Car.h"
 
 class CarPark
 {
 	friend class Manager;
-	
+
 private:
 	string name;
 	int count;
 	Car* list;
+	
 public:
 	CarPark();
 	CarPark(string name);
