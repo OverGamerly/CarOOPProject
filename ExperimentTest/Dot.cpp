@@ -52,6 +52,11 @@ Dot Dot::operator -(Dot dot) const
 	return Dot(x - dot.x, y - dot.y);
 }
 
+Dot Dot::operator -() const
+{
+	return Dot(-x, -y);
+}
+
 int Dot::operator *(Dot dot) const
 {
 	int px = x * dot.x;
@@ -59,6 +64,20 @@ int Dot::operator *(Dot dot) const
 
 	return px + py;
 }
+
+void Dot::operator ++()
+{
+	++x;
+	++y;
+}
+
+void Dot::operator ++(int)
+{
+	++x;
+	++y;
+}
+
+
 
 
 

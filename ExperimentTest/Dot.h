@@ -20,7 +20,10 @@ public:
 
 	Dot operator +(Dot dot) const;
 	Dot operator -(Dot dot) const;
+	Dot operator -() const;
 	int operator *(Dot dot) const;
+	void operator ++();
+	void operator ++(int);
 
 	string getInfo();
 };
