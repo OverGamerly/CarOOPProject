@@ -141,15 +141,19 @@
   <ItemGroup>
     <ClInclude Include="Car.h" />
     <ClInclude Include="CarPark.h" />
+    <ClInclude Include="Leader.h" />
     <ClInclude Include="MainHead.h" />
     <ClInclude Include="Manager.h" />
+    <ClInclude Include="SuperCar.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CarPark.cpp" />
     <ClCompile Include="CarParkingCr.cpp" />
+    <ClCompile Include="Leader.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="SuperCar.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

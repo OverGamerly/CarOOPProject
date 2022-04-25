@@ -27,6 +27,12 @@
     <ClInclude Include="CarPark.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Leader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperCar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -42,6 +48,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CarParkingCr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Leader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperCar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
